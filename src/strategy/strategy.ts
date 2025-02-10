@@ -38,6 +38,7 @@ class LoginServiceStrategy implements Strategy {
   }
 }
 
+// Playground
 const auth = new LoginContext(new LoginDBStrategy());
 
 const resultLoginDB = auth.authenticate('admin', '123456');
